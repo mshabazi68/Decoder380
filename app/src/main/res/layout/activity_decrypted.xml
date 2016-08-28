@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.ali.decoder.Decrypted"
+    android:background="@drawable/background1">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="TEXT"
+        android:id="@+id/dectxt"
+        android:textColor="#ff1fb217"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/btn_send"
+        android:clickable="true" />
+
+    <Button
+        android:id="@+id/btn_send"
+        android:text="Reply"
+
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:background="@drawable/buttonshape"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

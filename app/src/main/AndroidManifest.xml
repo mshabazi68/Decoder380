@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ali.decoder" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <uses-permission android:name="android.permission.RECEIVE_MMS" />
+    <uses-permission android:name="android.permission.SEND_MMS" />
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="DECODER"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="Main Menu"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.default" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CreateKey"
+            android:label="@string/title_activity_create_key"
+            android:theme="@style/Theme.AppCompat"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Encrypt"
+            android:label="@string/title_activity_encode"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Decrypt"
+            android:label="@string/title_activity_decode"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Splash"
+            android:label="@string/title_activity_splash"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Encrypted"
+            android:label="@string/title_activity_encrypted"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".DrawImage"
+            android:label="@string/title_activity_draw_image"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Decrypted"
+            android:label="@string/title_activity_decrypted"
+            android:screenOrientation="portrait">
+        </activity>
+    </application>
+
+</manifest>

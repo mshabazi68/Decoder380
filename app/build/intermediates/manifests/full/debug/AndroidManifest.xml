@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ali.decoder"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="22" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_MMS" />
+    <uses-permission android:name="android.permission.SEND_MMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="DECODER"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.ali.decoder.MainActivity"
+            android:label="Main Menu"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.default" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.ali.decoder.CreateKey"
+            android:label="@string/title_activity_create_key"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat" >
+        </activity>
+        <activity
+            android:name="com.example.ali.decoder.Encrypt"
+            android:label="@string/title_activity_encode"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.ali.decoder.Decrypt"
+            android:label="@string/title_activity_decode"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.ali.decoder.Splash"
+            android:label="@string/title_activity_splash"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.ali.decoder.Encrypted"
+            android:label="@string/title_activity_encrypted"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.ali.decoder.DrawImage"
+            android:label="@string/title_activity_draw_image"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.ali.decoder.Decrypted"
+            android:label="@string/title_activity_decrypted"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+</manifest>

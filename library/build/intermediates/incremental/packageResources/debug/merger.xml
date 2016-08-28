@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="C:\Users\Ali\Desktop\Decoder\library\src\main\res"><file name="color_preview" path="C:\Users\Ali\Desktop\Decoder\library\src\main\res\layout\color_preview.xml" qualifiers="" type="layout"/><file name="color_selector" path="C:\Users\Ali\Desktop\Decoder\library\src\main\res\layout\color_selector.xml" qualifiers="" type="layout"/><file name="picker_edit" path="C:\Users\Ali\Desktop\Decoder\library\src\main\res\layout\picker_edit.xml" qualifiers="" type="layout"/><file name="view_color_picker_preference" path="C:\Users\Ali\Desktop\Decoder\library\src\main\res\layout\view_color_picker_preference.xml" qualifiers="" type="layout"/><file path="C:\Users\Ali\Desktop\Decoder\library\src\main\res\values\attrs.xml" qualifiers=""><declare-styleable name="ColorPickerPreference">
+		<attr format="boolean" name="alphaSlider"/>
+		<attr format="boolean" name="lightnessSlider"/>
+		<attr format="integer" name="density"/>
+		<attr format="integer" name="initialColor"/>
+		<attr format="enum" name="wheelType">
+			<enum name="FLOWER" value="0"/>
+			<enum name="CIRCLE" value="1"/>
+		</attr>
+		<attr format="reference" name="lightnessSliderView"/>
+		<attr format="reference" name="alphaSliderView"/>
+	</declare-styleable></file><file path="C:\Users\Ali\Desktop\Decoder\library\src\main\res\values\dimens.xml" qualifiers=""><dimen name="default_slider_height">36dp</dimen><dimen name="default_slider_bar_height">4dp</dimen><dimen name="default_preview_image_height">36dp</dimen><dimen name="default_slider_handler_radius">10dp</dimen><dimen name="default_padding_side">10dp</dimen><dimen name="default_preview_height">40dp</dimen><dimen name="default_slider_margin">4dp</dimen></file><file path="C:\Users\Ali\Desktop\Decoder\library\src\main\res\values\styles.xml" qualifiers=""><style name="PickerEditText">
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_margin">4dp</item>
+		<item name="android:imeOptions">actionNext</item>
+		<item name="android:singleLine">true</item>
+		<item name="android:textSize">22sp</item>
+	</style></file></source><source path="C:\Users\Ali\Desktop\Decoder\library\build\generated\res\rs\debug"/><source path="C:\Users\Ali\Desktop\Decoder\library\build\generated\res\generated\debug"/></dataSet><dataSet config="debug"><source path="C:\Users\Ali\Desktop\Decoder\library\src\debug\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="ColorPickerPreference"><attr format="boolean" name="alphaSlider"/><attr format="boolean" name="lightnessSlider"/><attr format="integer" name="density"/><attr format="integer" name="initialColor"/><attr format="enum" name="wheelType"><enum name="FLOWER" value="0"/><enum name="CIRCLE" value="1"/></attr><attr format="reference" name="lightnessSliderView"/><attr format="reference" name="alphaSliderView"/></declare-styleable></configuration></mergedItems></merger>

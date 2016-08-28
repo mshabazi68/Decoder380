@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    tools:context=".Encode"
+    android:background="@drawable/background1">
+
+
+    <Button
+        android:text="Get Key"
+        android:id="@+id/key_btn"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="164dp"
+
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:background="@drawable/buttonshape"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:clickable="false" />
+
+
+    />
+
+    <Button
+        android:text="Encrypt"
+        android:id="@+id/enc2_btn"
+
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:background="@drawable/buttonshape"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_marginTop="74dp"
+
+        android:layout_alignTop="@+id/key_btn"
+        android:layout_alignStart="@+id/key_btn" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/txtmsg"
+        android:hint="Please enter your message to be encrypted"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="56dp"
+        android:textColorHint="#FFFFFF"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/txtshape"
+        android:lines="10"
+        android:layout_alignStart="@+id/key_btn"
+        android:layout_alignEnd="@+id/key_btn" />
+</RelativeLayout><!-- From: file:/C:/Users/Ali/Desktop/Decoder/app/src/main/res/layout/activity_encrypt.xml -->

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Ali\Desktop\Decoder\app\build\intermediates\exploded-aar\Decoder\library\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="d5ea2ae1cf140a907d526c34bf254d3176319281">
+        <dex dex="C:\Users\Ali\Desktop\Decoder\app\build\intermediates\pre-dexed\debug\classes-2cb9784e4e1733ee1f50602c548211dcec880638.jar" />
+    </item>
+    <item
+        jar="C:\Users\Ali\Desktop\Decoder\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\jars\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="C:\Users\Ali\Desktop\Decoder\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-b893512d236f271b4b88db54524fcbf86c8a8172.jar" />
+    </item>
+    <item
+        jar="D:\Android\android-sdk\extras\android\m2repository\com\android\support\support-annotations\22.0.0\support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="C:\Users\Ali\Desktop\Decoder\app\build\intermediates\pre-dexed\debug\support-annotations-22.0.0-83f3a28a49c34bdf60596a56f998d229ac639a82.jar" />
+    </item>
+    <item
+        jar="C:\Users\Ali\Desktop\Decoder\app\build\intermediates\exploded-aar\com.rengwuxian.materialedittext\library\2.0.3\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="052802ed198178e7133de387fbc87d3f2998482a">
+        <dex dex="C:\Users\Ali\Desktop\Decoder\app\build\intermediates\pre-dexed\debug\classes-333c84ae231c526333112f09279d7f8660675d22.jar" />
+    </item>
+    <item
+        jar="C:\Users\Ali\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="C:\Users\Ali\Desktop\Decoder\app\build\intermediates\pre-dexed\debug\library-2.4.0-5ff90c11aa2c45645a84b7089999b6208dfea66d.jar" />
+    </item>
+    <item
+        jar="C:\Users\Ali\Desktop\Decoder\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="C:\Users\Ali\Desktop\Decoder\app\build\intermediates\pre-dexed\debug\classes-d9beecc025894e4a05af4a3e5fd251a69ac42f85.jar" />
+    </item>
+    <item
+        jar="C:\Users\Ali\Desktop\Decoder\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="C:\Users\Ali\Desktop\Decoder\app\build\intermediates\pre-dexed\debug\classes-e65c7c82149a22b3dba3e4a00a7d72eacd72ffb2.jar" />
+    </item>
+
+</items>

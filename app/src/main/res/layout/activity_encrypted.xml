@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".Encrypted"
+    android:background="@drawable/background1">
+
+    <EditText
+        android:id="@+id/et_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Number"
+        android:inputType="number"
+        android:singleLine="true"
+        android:textColorHint="#FFFFFF"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/txtshape"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/et_msg"
+        android:layout_alignEnd="@+id/et_msg" />
+
+    <EditText
+        android:id="@+id/et_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        android:ems="10"
+        android:lines="3"
+        android:inputType="text"
+        android:hint="Enter Message Body"
+        android:textColorHint="#FFFFFF"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/txtshape"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/et_number"
+        android:layout_alignStart="@+id/imgButton"
+        android:layout_alignEnd="@+id/imgButton"
+        android:layout_above="@+id/imgButton" />
+
+
+
+
+
+
+    <Button
+        android:id="@+id/imgButton"
+        android:text="Get Image"
+
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:background="@drawable/buttonshape"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_marginBottom="10dp"
+        android:layout_above="@+id/btn_send"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:id="@+id/btn_send"
+        android:text="Send MMS"
+
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:background="@drawable/buttonshape"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/imgButton"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"/>
+
+
+</RelativeLayout>
